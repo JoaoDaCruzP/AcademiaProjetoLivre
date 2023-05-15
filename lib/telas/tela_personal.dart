@@ -7,10 +7,12 @@ class TelaPersonal extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tela do Personal'),
+        backgroundColor: Colors.orange,
+        centerTitle: true,
+        title: const Text('Tela do Personal'),
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: const [
